@@ -1,4 +1,4 @@
-package Basics.Exercises.DisplayMenu;
+package basics.exercises.displayMenu;
 
 public class DisplayMenu {
 //    Create a main method

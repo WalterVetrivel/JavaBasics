@@ -1,4 +1,4 @@
-package Basics.Exercises.Account;
+package basics.exercises.account;
 
 public class Account {
 //    Create a main method

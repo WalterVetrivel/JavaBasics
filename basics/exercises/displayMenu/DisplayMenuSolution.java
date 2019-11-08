@@ -1,4 +1,4 @@
-package Basics.Exercises.DisplayMenu;
+package basics.exercises.displayMenu;
 
 public class DisplayMenuSolution {
     public static void main(String[] args) {

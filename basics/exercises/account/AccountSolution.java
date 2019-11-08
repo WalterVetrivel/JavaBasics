@@ -1,4 +1,4 @@
-package Basics.Exercises.Account;
+package basics.exercises.account;
 
 public class AccountSolution {
     public static void main(String[] args) {
