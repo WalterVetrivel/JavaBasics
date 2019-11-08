@@ -9,7 +9,7 @@ public class DataTypes {
         System.out.println();
 
 //        Integer
-        System.out.println("For integer numbers, we use int.");
+        System.out.println("For integer numbers, we use int. It can store values from –2,147,483,648 to 2,147,483,647.");
         int age;
         System.out.println("We can assign values to variables using = ");
         age = 25;
@@ -29,6 +29,19 @@ public class DataTypes {
         System.out.println("Think of it like this, a cubic container can hold a cubic object, " +
                 "a cylindrical container can hold a cylindrical object, etc.");
         System.out.println();
+
+//        byte, long, short
+        System.out.println("Sometimes, we need to store only ver small numbers.");
+        System.out.println("We can use byte (-128 to +127) or short (-32768 to +32767).");
+        byte smallNumber = 5;
+        short aBiggerNumber = 1024;
+        System.out.println(smallNumber);
+        System.out.println(aBiggerNumber);
+        System.out.println("Sometimes we must store larger numbers that cannot be stored in an int.");
+        System.out.println("We can use long (-(2^63) to (2^63)-1 to store numbers that int variables can't hold.");
+        System.out.println("Long numbers must be denoted using L at the end.");
+        long veryLargeNumber = 5147483647L;
+        System.out.println(veryLargeNumber);
 
 //        Float & double
         System.out.println("For decimal numbers, we use float or double.");
