@@ -1,3 +1,5 @@
+package Basics;
+
 public class Variables {
     public static void main(String[] args) {
         System.out.println("In Java, we would have to use the same data in multiple places in the code.");
@@ -55,5 +57,23 @@ public class Variables {
         System.out.println(3000 * bonusPercent);
         System.out.println(5000 * bonusPercent);
         System.out.println(4000 * bonusPercent);
+
+        System.out.println("Variable names can be anything, but there are some rules.");
+        int a;
+        int anExampleVariableName;
+        String this_is_also_a_variable_name;
+        double walter;
+        float num1;
+        char xyz456;
+        System.out.println();
+
+        System.out.println("RULES FOR VARIABLE NAMES");
+        System.out.println("------------------------");
+        System.out.println("But it is good to use meaningful variable names.");
+        System.out.println("Variable names must start with a letter or _.");
+        System.out.println("Variable names can't start with a number.");
+        System.out.println("Variable names may only contain characters, numbers and _");
+        System.out.println("Variable names can't contain special characters like ?, $, %, etc.");
+        System.out.println("In Java, we often follow the camelCaseNotation for naming variables.");
     }
 }

@@ -1,3 +1,5 @@
+package Basics;
+
 public class PrintBasics {
     public static void main(String[] args) {
         System.out.println("System.out.println() prints a string on the screen and adds a new line at the end.");
