@@ -18,12 +18,23 @@ public class UserInput {
         System.out.print("Please enter your name: ");
         String name = scanner.nextLine();
         System.out.println("Welcome, " + name);
+        System.out.println("scanner.nextLine() reads the user input until the user presses enter.");
+        System.out.println("To read a single word (terminated by space), we can use scanner.next()");
+        System.out.print("Enter your city: ");
+        String city = scanner.next();
+        System.out.println("Your city is " + city);
         System.out.println();
 
         System.out.println("To read an int, we use scanner.nextInt()");
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
         System.out.println("You are " + age + " years old.");
+        System.out.println();
+
+        System.out.println("To read a double, we use scanner.nextDouble()");
+        System.out.println("Enter your GPA: ");
+        double gpa = scanner.nextDouble();
+        System.out.println("Your GPA is: " + gpa);
         System.out.println();
     }
 }
